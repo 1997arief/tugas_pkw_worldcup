@@ -297,15 +297,26 @@ td {
 .table {
 	margin-top: 0px;
 	margin-right: auto;
-	margin-bottom: 0px;
+	margin-bottom: 10px;
 	margin-left: auto;
 	border-bottom-width: 1px;
 	border-top-style: none;
 	border-right-style: none;
 	border-bottom-style: solid;
 	border-left-style: none;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-.tdRight {
-
-
+table th, table td{
+  padding: 2px 5px;
+  border: 1px solid #F5F5F5;
+}
+.textRight{
+  text-align: right;
+}
+.textCenter{
+  text-align: center;
+}
+.textLeft{
+  text-align: left;
 }
