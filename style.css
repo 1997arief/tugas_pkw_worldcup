@@ -493,3 +493,14 @@ img, object, embed, video {
 	margin-right: auto;
 	display: block;
 }
+.textInput{
+    display: block;
+    width: 97%;
+    padding: 5px 1.5%;
+    font-size: 13px;
+    line-height: 1.5384616;
+    color: #333333;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #ddd;
+}

@@ -179,16 +179,21 @@ table button, table input { *overflow: auto; }
  */
 
 button, input[type="button"], input[type="reset"], input[type="submit"] {
-	cursor: pointer;
-	-webkit-appearance: button;
-	text-transform: uppercase;
-	background-color: #B30608;
-	color: #FFF;
-	border: none;
-	padding-top: 5px;
-	padding-right: 10px;
-	padding-bottom: 5px;
-	padding-left: 10px;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 5px 10px;
+  font-size: 13px;
+  line-height: 1.5384616;
+  border-radius: 3px;
+  text-transform: uppercase;
 }
 
 /*
@@ -319,4 +324,8 @@ table th, table td{
 }
 .textLeft{
   text-align: left;
+}
+.tombolMerah{
+  background-color: #B30608;
+  color: #FFF;
 }
